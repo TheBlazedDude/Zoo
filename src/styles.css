@@ -21,7 +21,7 @@
     }
 
     .header_content_a {
-        @apply w-full bg-blue-100
+        @apply w-full bg-gray-100
     }
 
     .header_content_a h1 {
@@ -37,7 +37,7 @@
     }
 
     .continent_button {
-        @apply  m-2 border-0 bg-gray-500 rounded inline-block flex-1 hover:bg-gray-200
+        @apply  m-2 border-0 bg-gray-400 rounded inline-block flex-1 hover:bg-gray-200
     }
 
     .continent_button a{
@@ -97,7 +97,7 @@
     }
 
     .navButton {
-        @apply text-black bg-gray-500  px-5 py-2 w-full
+        @apply text-black bg-gray-400 px-5 py-2 w-full hover:bg-gray-500
     }
 
     .hiddenDiv {
@@ -110,7 +110,7 @@
 
     /**body**/
     .body_content_a {
-        @apply h-2/5 flex border inline-block
+        @apply flex border inline-block
     }
     .body_content_a .event {
         @apply inline-block content-center w-4/5 h-2/5 flex m-4
@@ -270,4 +270,58 @@
     .event-text1 img {
         @apply w-6/12 overflow-hidden mx-auto
     }
+
+    .dsgvo {
+        @apply bg-gray-100 p-20
+    }
+
+    .dsgvo_content {
+        @apply bg-white
+    }
+
+    .dsgvo_content h4 {
+        @apply font-bold flex
+    }
+
+    .dsgvo_content .p_content {
+        @apply p-4
+    }
+
+    .visitcard {
+        @apply text-center
+    }
+
+    .dsgvo_div {
+        @apply p-4
+    }
+
+
+    .title {
+        @apply underline text-lg mx-auto justify-center p-4
+    }
+
+    .subtitle {
+        @apply underline mx-auto p-4 justify-center
+    }
+
+    .Impressum {
+        @apply bg-gray-200 py-12 px-8
+    }
+
+    .Impressum_content {
+        @apply bg-white
+    }
+
+    .Impressum_content h1 {
+        @apply text-xl font-bold underline text-center
+    }
+
+    .Impressum_content h2 {
+        @apply px-2 py-2 text-center font-medium underline
+    }
+
+    .Impressum_content p {
+        @apply p-2 text-center
+    }
+
 
