@@ -79,15 +79,35 @@
 }
 
 /* Six columns side by side */
-.column {
-    float: left;
-    width: 16.66%;
+@media screen(zero){
+    .column {
+        /*float: left;*/
+        width: 100%;
+    }
 }
 
-/* Add a transparency effect for thumnbail images */
-.demo {
-    opacity: 0.6;
+@media screen(sm){
+    .column {
+        float: left;
+        width: 16.66%;
+    }
 }
+
+
+/* Add a transparency effect for thumnbail images */
+
+@media screen(zero) {
+    .demo {
+        @apply opacity-100
+    }
+}
+
+@media screen(sm) {
+    .demo {
+        @apply opacity-60
+    }
+}
+
 
 .active,
 .demo:hover {

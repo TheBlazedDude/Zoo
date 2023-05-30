@@ -190,6 +190,35 @@ header {
     }
 }
 
+@media screen(zero) {
+    .hideSlides {
+        @apply hidden
+    }
+}
+
+@media screen(sm) {
+    .hideSlides {
+        @apply block
+    }
+}
+
+@media screen(zero) {
+    .Slides {
+        @apply flex flex-col
+    }
+}
+
+@media screen(sm) {
+    .Slides {
+        @apply flex flex-row
+    }
+}
+
+
+
+
+
+
 .event .div img {
     @apply inline-block
 }
@@ -357,7 +386,7 @@ footer {
 }
 
 .content_map .event {
-    @apply w-fit text-center w-4/5
+    @apply w-fit text-center mx-auto
 }
 
 .content_map .search {
@@ -376,16 +405,44 @@ footer {
     @apply content-center
 }
 
-.snakeCollection {
-    @apply min-w-full flex flex-row
+.event-text1 h2{
+    @apply content-center py-2 font-medium
+}
+@media screen(zero) {
+    .snakeCollection {
+        @apply min-w-full flex flex-col
+    }
+}
+@media screen(md) {
+    .snakeCollection {
+        @apply min-w-full flex flex-row
+    }
+}
+
+@media screen(zero) {
+    .Snakes, .Snakes h3 {
+        @apply w-full text-center
+    }
+}
+
+@media screen(md) {
+    .Snakes , .Snakes h3 {
+        @apply mx-auto p-2 text-center
+    }
 }
 
 .Snakes {
-    @apply w-full m-6
+     display: flex;
+     flex-direction: column;
+ }
+
+.Snakes img {
+    @apply mx-auto
 }
 
+
 .event-text1 img {
-    @apply w-6/12 overflow-hidden mx-auto
+    @apply p-2 mx-auto
 }
 
 .dsgvo {
