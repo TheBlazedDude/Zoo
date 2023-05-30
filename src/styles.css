@@ -495,7 +495,7 @@ footer {
 }
 
 .Impressum_content p {
-    @apply p-2 text-center p-2
+    @apply p-2 text-center
 }
 @media screen(zero) {
     .peer:hover ~ .peer-hover\:flex, .peer2:hover ~ .peer2-hover\:flex {
