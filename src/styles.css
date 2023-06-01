@@ -410,12 +410,12 @@ footer {
 }
 @media screen(zero) {
     .snakeCollection {
-        @apply min-w-full flex flex-col
+        @apply min-w-full flex flex-col p-2
     }
 }
 @media screen(md) {
     .snakeCollection {
-        @apply min-w-full flex flex-row
+        @apply min-w-full flex flex-row p-2
     }
 }
 
