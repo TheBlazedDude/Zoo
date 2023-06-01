@@ -432,9 +432,9 @@ footer {
 }
 
 .Snakes {
-     display: flex;
-     flex-direction: column;
- }
+    display: flex;
+    flex-direction: column;
+}
 
 .Snakes img {
     @apply mx-auto
@@ -508,6 +508,5 @@ footer {
         display: block;
     }
 }
-
 
 
