@@ -154,6 +154,53 @@ header {
 
 
 /**body**/
+.info_container {
+    @apply flex bg-gray-100 relative
+}
+
+.info_content {
+    @apply mx-auto w-9/12 bg-white
+}
+
+.info_text {
+    @apply flex flex-col p-2
+}
+
+.info_title {
+    @apply  mx-auto text-2xl
+}
+
+.info_text {
+    @apply p-2 mx-auto text-center
+}
+
+.content_table {
+    @apply p-2
+}
+
+.table {
+    @apply border mx-auto
+}
+
+.thead {
+    @apply bg-gray-200 w-1/5
+}
+
+.thead tr th {
+    @apply p-2
+}
+
+.tbody tr td {
+    @apply p-2 border-b
+}
+
+.notes {
+    @apply mx-auto w-4/5
+}
+
+.notes p {
+    @apply p-2 mx-auto text-center
+}
 
 @media screen(zero) {
     .body_content_a {
