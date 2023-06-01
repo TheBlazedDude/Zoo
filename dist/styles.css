@@ -162,16 +162,12 @@ header {
     @apply mx-auto w-9/12 bg-white
 }
 
-.info_text {
-    @apply flex flex-col p-2
-}
-
 .info_title {
     @apply  mx-auto text-2xl
 }
 
 .info_text {
-    @apply p-2 mx-auto text-center
+    @apply p-2 mx-auto text-center w-11/12 flex flex-col
 }
 
 .content_table {
@@ -463,7 +459,7 @@ aside a  div h1{
 
 /**footer**/
 footer {
-    @apply w-full flex border bg-gray-300 bottom-0
+    @apply relative bottom-0 w-full flex border bg-gray-300
 }
 
 .content_footer_a {

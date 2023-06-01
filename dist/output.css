@@ -889,12 +889,6 @@ header {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.info_text {
-  display: flex;
-  flex-direction: column;
-  padding: 0.5rem;
-}
-
 .info_title {
   margin-left: auto;
   margin-right: auto;
@@ -905,6 +899,9 @@ header {
 .info_text {
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  width: 91.666667%;
+  flex-direction: column;
   padding: 0.5rem;
   text-align: center;
 }
@@ -1324,6 +1321,7 @@ aside a  div h1 {
 /**footer**/
 
 footer {
+  position: relative;
   bottom: 0px;
   display: flex;
   width: 100%;
