@@ -1006,10 +1006,22 @@ header {
   margin-bottom: 0.5rem;
 }
 
-.us_container_c {
-  display: flex;
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+@media (min-width: 0px) {
+  .us_container_c {
+    display: flex;
+    flex-direction: column;
+    --tw-bg-opacity: 1;
+    background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+  }
+}
+
+@media (min-width: 838px) {
+  .us_container_c {
+    display: flex;
+    flex-direction: row;
+    --tw-bg-opacity: 1;
+    background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+  }
 }
 
 .us_container_b {
@@ -1027,9 +1039,30 @@ header {
 .us {
   margin: 1rem;
   margin-left: 1.5rem;
-  width: 60%;
+  width: 58.333333%;
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 0px) {
+  .us {
+    margin: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 91.666667%;
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  }
+}
+
+@media (min-width: 838px) {
+  .us {
+    margin: 1rem;
+    margin-left: 1.5rem;
+    width: 58.333333%;
+    --tw-bg-opacity: 1;
+    background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  }
 }
 
 .us_content {
@@ -1050,9 +1083,86 @@ header {
 
 .us_container_c .event {
   margin: 1rem;
-  width: 33.333333%;
+  width: 41.666667%;
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 0px) {
+  .us_container_c .event {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    --tw-bg-opacity: 1;
+    background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+  }
+}
+
+@media (min-width: 838px) {
+  .us_container_c .event {
+    margin: 1rem;
+    width: 41.666667%;
+    --tw-bg-opacity: 1;
+    background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+  }
+}
+
+aside {
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media (min-width: 1024px) {
+  aside {
+    margin: 1rem;
+  }
+}
+
+aside a {
+  display: flex;
+  width: 100%;
+  gap: 0.75rem;
+  border-radius: 0.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+  padding-right: 0.5rem;
+}
+
+aside a img {
+  border-radius: 0.25rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+aside a  div {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+aside a  div span {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 700;
+}
+
+aside a  div h1 {
+  word-break: break-all;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+@media (min-width: 640px) {
+  aside a  div h1 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
 }
 
 .mySlides img {

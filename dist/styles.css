@@ -261,9 +261,16 @@ header {
 .img_container {
     @apply mx-auto my-2
 }
+@media screen(zero) {
+    .us_container_c {
+        @apply flex flex-col bg-gray-100
+    }
+}
 
-.us_container_c {
-    @apply flex bg-gray-100
+@media screen(md) {
+    .us_container_c {
+        @apply flex flex-row bg-gray-100
+    }
 }
 
 .us_container_b {
@@ -275,7 +282,19 @@ header {
 }
 
 .us {
-    @apply m-4 ml-6 bg-white w-3/5
+    @apply m-4 ml-6 bg-white w-7/12
+}
+
+@media screen(zero) {
+    .us {
+        @apply m-4 mx-auto bg-white w-11/12
+    }
+}
+
+@media screen(md) {
+    .us {
+        @apply m-4 ml-6 bg-white w-7/12
+    }
 }
 
 .us_content {
@@ -291,7 +310,43 @@ header {
 }
 
 .us_container_c .event {
-    @apply m-4 bg-gray-200 w-1/3
+    @apply m-4 bg-gray-200 w-5/12
+}
+
+@media screen(zero) {
+    .us_container_c .event {
+        @apply my-4 mx-auto bg-gray-200 w-9/12
+    }
+}
+
+@media screen(md) {
+    .us_container_c .event {
+        @apply m-4 bg-gray-200 w-5/12
+    }
+}
+
+aside {
+    @apply flex flex-col items-center gap-4 m-2 lg:m-4
+}
+
+aside a {
+    @apply flex gap-3 pr-2 rounded bg-gray-100 w-full
+}
+
+aside a img {
+    @apply rounded object-cover
+}
+
+aside a  div{
+    @apply py-1 px-2
+}
+
+aside a  div span{
+    @apply text-xs font-bold
+}
+
+aside a  div h1{
+    @apply text-2xl sm:text-3xl break-all
 }
 
 .mySlides img {
