@@ -543,6 +543,10 @@ video {
   display: none;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -982,6 +986,10 @@ header {
   }
 }
 
+.body_content_a .event div img {
+  height: 100%;
+}
+
 @media (min-width: 0px) {
   .event .div {
     display: inline-block;
@@ -1240,18 +1248,15 @@ aside a  div h1 {
   margin-right: auto;
 }
 
-.news-a .image img {
-  width: 18rem;
-}
-
 .news-b .image, .news-a .image {
   margin-left: auto;
   margin-right: auto;
+  width: 25%;
   padding: 1rem;
 }
 
-.news-b .image img {
-  width: 16rem;
+.news-b .image img, .news-a .image img {
+  width: 100%;
 }
 
 .news-b {

@@ -221,6 +221,10 @@ header {
     }
 }
 
+.body_content_a .event div img {
+    @apply h-full
+}
+
 @media screen(zero) {
     .event .div {
         @apply inline-block flex-shrink-0 p-0 text-center
@@ -397,16 +401,11 @@ aside a  div h1{
 }
 
 
-
-.news-a .image img {
-    @apply w-72
-}
-
 .news-b .image, .news-a .image {
-    @apply p-4 mx-auto
+    @apply p-4 mx-auto w-3/12
 }
-.news-b .image img {
-    @apply w-64
+.news-b .image img, .news-a .image img {
+    @apply w-full
 }
 
 .news-b {
