@@ -543,10 +543,6 @@ video {
   display: none;
 }
 
-.w-full {
-  width: 100%;
-}
-
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -987,7 +983,7 @@ header {
 }
 
 .body_content_a .event div img {
-  height: 100%;
+  /*@apply*/
 }
 
 @media (min-width: 0px) {
@@ -1045,11 +1041,7 @@ header {
   font-weight: 500;
 }
 
-.event-content p {
-  padding: 0.5rem;
-}
-
-.event-content a {
+.event-content p, .event-content a {
   padding: 0.5rem;
 }
 
@@ -1251,7 +1243,6 @@ aside a  div h1 {
 .news-b .image, .news-a .image {
   margin-left: auto;
   margin-right: auto;
-  width: 25%;
   padding: 1rem;
 }
 
