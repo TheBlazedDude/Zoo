@@ -2,12 +2,12 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <meta name="SnakeZoo" content="This Website displays Snakes from all over the World">
+    <meta name="description" content="This Website displays Snakes from all over the World">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="Benedict Brück">
     <title>Snake Zoo</title>
     <link rel="stylesheet" href="../../dist/output.css">
-    <script type="text/javascript" src="../../dist/app.js"></script>
+<!--    <script type="text/javascript" src="../../dist/app.js"></script>-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="apple-touch-icon" sizes="180x180" href="../../src/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../../src/favicon/favicon-32x32.png">
@@ -16,6 +16,8 @@
     <link rel="mask-icon" href="../../src/favicon/safari-pinned-tab.svg" color="#141c27">
     <meta name="msapplication-TileColor" content="#141c27">
     <meta name="theme-color" content="#ffffff">
+    <meta http-equiv="Cache-Control" content="public, max-age=36000" />
+
 </head>
 
 <header>
@@ -77,7 +79,7 @@
                     <button class="peer navButton hover:bg-blue-700 ">Kontakt</button>
                     <!-- the menu here -->
                     <div class="hiddenDiv hidden peer-hover:flex hover:flex">
-                        <a class="hover:bg-gray-200" href="#">Kontaktformular</a>
+                        <a class="hover:bg-gray-200" href="../Kontakt/Kontaktformular.html">Kontaktformular</a>
                         <a class="hover:bg-gray-200" href="../Kontakt/TiereInNot.html">Tiere in Not</a>
                     </div>
                 </div>
@@ -85,8 +87,8 @@
                     <button class="peer navButton hover:bg-blue-700 ">Über uns</button>
                     <!-- the menu here -->
                     <div class="hiddenDiv hidden peer-hover:flex hover:flex">
-                        <a class="hover:bg-gray-200" href="Leitbild.html">Leitbild</a>
-                        <a class="hover:bg-gray-200" href="Team.html">Team</a>
+                        <a class="hover:bg-gray-200" href="../ÜberUns/Leitbild.html">Leitbild</a>
+                        <a class="hover:bg-gray-200" href="../ÜberUns/Team.html">Team</a>
                     </div>
                 </div>
             </nav>
@@ -95,12 +97,12 @@
         <div class="hiddenDiv2 hidden peer2-hover:flex hover:flex" style="right: 0%">
             <a class="hover:bg-gray-200" href="../Öffnungszeit/Öffnungszeiten.html">Öffnungszeiten</a>
             <a class="hover:bg-gray-200" href="../Ticket/Tickets.html">Tickets</a>
-            <a class="hover:bg-gray-200" href="../Galerie/Galerie_2023.html">Galerie_2023</a>
-            <a class="hover:bg-gray-200" href="../Galerie/Galerie_2022.html">Galerie_2022</a>
+            <a class="hover:bg-gray-200" href="../Galerie/Galerie_2023.html">Galerie 2023</a>
+            <a class="hover:bg-gray-200" href="../Galerie/Galerie_2022.html">Galerie 2022</a>
             <a class="hover:bg-gray-200" href="../Kontakt/Kontaktformular.html">Kontakt</a>
             <a class="hover:bg-gray-200" href="../Kontakt/TiereInNot.html">TiereInNot</a>
-            <a class="hover:bg-gray-200" href="Leitbild.html">Leitbild</a>
-            <a class="hover:bg-gray-200" href="Team.html">Team</a>
+            <a class="hover:bg-gray-200" href="../ÜberUns/Leitbild.html">Leitbild</a>
+            <a class="hover:bg-gray-200" href="../ÜberUns/Team.html">Team</a>
 
         </div>
     </div>
@@ -110,7 +112,7 @@
 <div>
     <div class="us_container_a">
         <div class="img_container">
-            <img src="../../src/images/Snakes/royal-python-viv.jpg">
+            <img src="../../src/images/Snakes/royal-python-viv.jpg" alt="Boa Constrictor" width="730" height="530">
         </div>
     </div>
     <div class="us_container_b">
@@ -139,7 +141,7 @@
         <div class="event">
             <aside class="flex flex-col items-center gap-4 m-2 lg:m-4">
                 <a href="https://fightingpainter.github.io/ZooWebsite" target="_blank" class="ad-item-1 flex gap-3 pr-2 bg-brown-extreme-light rounded custom-shadow hidden">
-                    <img src="https://fightingpainter.github.io/ZooWebsite/assets/img/icon.ico" alt="Fightingpainter Aquarium's icon" width="100" height="128" class="rounded object-cover">
+                    <img src="https://fightingpainter.github.io/ZooWebsite/assets/img/icon.ico" alt="Fightingpainter Aquarium's icon" width="100" height="128" class="lazyload rounded object-cover">
                     <div class="py-1">
                         <span class="text-xs font-bold">Sponsored</span>
                         <h1 class="text-2xl sm:text-3xl break-all">Fightingpainter Aquarium</h1>
@@ -147,7 +149,7 @@
                     </div>
                 </a>
                 <a href="https://standbee.github.io/peculiar-zoo" target="_blank" class="ad-item-2 flex gap-3 pr-2 bg-brown-extreme-light rounded custom-shadow hidden">
-                    <img src="https://standbee.github.io/peculiar-zoo/favicon.png" alt="Zoo of Peculiarity's icon" width="100" height="128" class="rounded object-cover">
+                    <img src="https://standbee.github.io/peculiar-zoo/favicon.png" alt="Zoo of Peculiarity's icon" width="100" height="128" class="lazyload rounded object-cover">
                     <div class="py-1">
                         <span class="text-xs font-bold">Sponsored</span>
                         <h1 class="text-2xl sm:text-3xl break-all">Zoo of Peculiarity</h1>
@@ -155,7 +157,7 @@
                     </div>
                 </a>
                 <a href="https://theblazeddude.github.io/Zoo/pages/home.html" target="_blank" class="ad-item-2 flex gap-3 pr-2 p-2 bg-brown-extreme-light rounded custom-shadow">
-                    <img src="https://theblazeddude.github.io/Zoo/Marsh-Snake.png" alt="SnakeZoo Icon" width="100" height="128" class="rounded object-cover">
+                    <img src="https://theblazeddude.github.io/Zoo/Marsh-Snake.png" alt="SnakeZoo Icon" width="100" height="128" class="rounded object-cover lazyload">
                     <div class="py-1 px-2">
                         <span class="text-xs font-bold">Sponsored</span>
                         <h1 class="text-2xl sm:text-3xl break-all">Snake Zoo</h1>
@@ -163,7 +165,7 @@
                     </div>
                 </a>
                 <a href="https://sven1222225.github.io/ardougne-zoo" target="_blank" class="ad-item-4 flex gap-3 pr-2 bg-brown-extreme-light rounded custom-shadow">
-                    <img src="https://sven1222225.github.io/ardougne-zoo/favicon.png" alt="Ardougne Zoo's icon" width="100" height="128" class="rounded object-cover">
+                    <img src="https://sven1222225.github.io/ardougne-zoo/favicon.png" alt="Ardougne Zoo's icon" width="100" height="128" class="lazyload rounded object-cover ">
                     <div class="py-1">
                         <span class="text-xs font-bold">Sponsored</span>
                         <h1 class="text-2xl sm:text-3xl break-all">Ardougne Zoo</h1>
@@ -180,7 +182,7 @@
     <div class="content_footer_a">
         <a href="../Footer/Impressum.html" target="popup" onclick="window.open('../Footer/Impressum.html','popup','width=600,height=600,bg-blue-500'); return false;">Impressum</a>
         <a href="../Footer/DSGVO.html" target="popup" onclick="window.open('../Footer/DSGVO.html','popup','width=600,height=600,bg-blue-500'); return false;">DSGVO</a>
-        <a href="partner.html">Partner</a>
+        <a href="../Footer/partner.html">Partner</a>
     </div>
 
     <div class="content_footer_b">
@@ -189,8 +191,8 @@
 
     <div class="content_footer_c">
         <u>Kontakt</u>
-        <a href="">Tel: 076 317 0500</a>
-        <a href="">Mail</a>
+        <a href="tel:0763170500">Tel: 076 317 0500</a>
+        <a href="mailto:bene.brueck@gmx.ch">Mail</a>
     </div>
 </footer>
 </html>

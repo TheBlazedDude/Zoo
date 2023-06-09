@@ -197,6 +197,34 @@ header {
 .notes p {
     @apply p-2 mx-auto text-center
 }
+@media screen(zero) {
+    .iframe {
+        @apply text-center
+    }
+}
+
+@media screen(md) {
+    .iframe {
+        @apply w-1/2 mx-auto
+    }
+}
+
+
+.iframe_content .info_title, .iframe_content p {
+    @apply text-center
+}
+
+.iframe_content p {
+    @apply p-2
+}
+
+.iframe_content p {
+    @apply w-10/12 mx-auto
+}
+
+#iframe {
+    @apply mx-auto w-11/12 h-1/2 m-2
+}
 
 @media screen(zero) {
     .body_content_a {
@@ -352,11 +380,163 @@ header {
     @apply p-2
 }
 
+
+
+
+
+
+
+
+
+
+
+.Snake_container_a {
+    @apply flex bg-gray-100
+}
+
+.img_container {
+    @apply mx-auto my-2
+}
+@media screen(zero) {
+    .Snake_container_c {
+        @apply flex flex-col bg-gray-100
+    }
+}
+
+@media screen(md) {
+    .Snake_container_c {
+        @apply flex flex-row bg-gray-100
+    }
+}
+
+.Snake_container_b {
+    @apply flex
+}
+
+.Snake_container_b h1{
+    @apply text-2xl font-bold mx-auto
+}
+
+.Snake_container_c .us {
+    @apply bg-white w-10/12 mx-auto
+}
+
+@media screen(zero) {
+    .us {
+        @apply m-4 mx-auto bg-white w-11/12
+    }
+}
+
+@media screen(md) {
+    .us {
+        @apply mx-auto bg-white w-11/12
+    }
+}
+
+.us_content {
+    @apply p-2
+}
+
+.us_content h2{
+    @apply px-2 font-bold text-xl
+}
+
+.us_content p{
+    @apply p-2
+}
+
+.contactFormContainer {
+    @apply p-4 bg-gray-200 w-4/5 mx-auto
+}
+
+/*.contactFormContainer h1 {*/
+/*    @apply text-center*/
+/*}*/
+
+.form_content {
+    @apply py-4 px-6 bg-gray-100
+}
+
+.form_content h1{
+    @apply text-center
+}
+
+.form_content form div{
+    @apply pt-2
+}
+
+.formInputs {
+    @apply flex flex-row
+}
+@media screen(zero) {
+    .formInputs {
+        @apply flex flex-col
+    }
+
+    .formCheckbox {
+        @apply w-2/6
+    }
+
+    .formSelect {
+        @apply w-full
+    }
+
+    .formSelect select{
+        @apply w-full
+    }
+
+    .formButtons {
+        @apply w-1/6
+    }
+
+    .SendButton {
+        @apply py-2 px-2 bg-blue-300 rounded float-right
+    }
+}
+
+@media screen(700) {
+    .formInputs {
+        @apply flex flex-row
+    }
+
+    .formCheckbox {
+        @apply w-2/6
+    }
+
+    .formSelect {
+        @apply w-3/6
+    }
+
+    .formSelect select{
+        @apply w-auto
+    }
+
+    .formButtons {
+        @apply w-1/6
+    }
+
+    .SendButton {
+        @apply py-2 px-2 bg-blue-300 rounded float-right
+    }
+}
+
+
+
+
+
+
+
 .us_container_c .event {
     @apply m-4 bg-gray-200 w-5/12
 }
 
 @media screen(zero) {
+    .us_container_c .event {
+        @apply my-4 mx-auto bg-gray-200 w-11/12
+    }
+}
+
+@media screen(sm) {
     .us_container_c .event {
         @apply my-4 mx-auto bg-gray-200 w-9/12
     }
@@ -377,7 +557,7 @@ aside a {
 }
 
 aside a img {
-    @apply rounded object-cover
+    @apply rounded object-cover m-1 my-auto
 }
 
 aside a  div{
@@ -393,7 +573,7 @@ aside a  div h1{
 }
 
 .mySlides img {
-    @apply mx-auto
+    @apply mx-auto w-4/5
 }
 
 
@@ -475,16 +655,16 @@ footer {
 
 /**Nord-Amerika**/
 .content_map {
-    @apply flex border min-w-full
+    @apply  border min-w-full
 }
 
 .content_map .event {
     @apply w-fit text-center mx-auto
 }
 
-.content_map .search {
-    @apply border w-1/5
-}
+/*.content_map .search {*/
+/*    @apply border w-1/5*/
+/*}*/
 
 .div_map {
     @apply inline-block
@@ -529,13 +709,22 @@ footer {
     flex-direction: column;
 }
 
-.Snakes img {
-    @apply mx-auto
+@media screen(zero) {
+    .Snakes img {
+        @apply mx-auto w-1/2
+    }
+}
+
+@media screen(md) {
+    .Snakes img {
+        @apply mx-auto
+    }
 }
 
 
+
 .event-text1 img {
-    @apply p-2 mx-auto
+    @apply p-2 mx-auto w-8/12
 }
 
 .dsgvo {

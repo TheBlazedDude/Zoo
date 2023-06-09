@@ -786,6 +786,7 @@ module.exports = {
       zero: '0px',
       xs: '400px',
       sm: '640px',
+      700: '700px',
       md: '838px',
       lg: '1024px',
       xl: '1280px',
