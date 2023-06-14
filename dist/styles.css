@@ -728,9 +728,13 @@ footer {
 }
 
 .Snakes {
-    display: flex;
-    flex-direction: column;
+    @apply flex flex-col
 }
+
+.Snakes a{
+    @apply pb-2
+}
+
 
 @media screen(zero) {
     .Snakes img {

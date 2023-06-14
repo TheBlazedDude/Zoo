@@ -1720,6 +1720,10 @@ footer {
   flex-direction: column;
 }
 
+.Snakes a {
+  padding-bottom: 0.5rem;
+}
+
 @media (min-width: 0px) {
   .Snakes img {
     margin-left: auto;
