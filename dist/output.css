@@ -1246,6 +1246,7 @@ html, body {
   flex-direction: column;
   --tw-bg-opacity: 1;
   background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+  padding-right: 0.5rem;
 }
 
 @media (min-width: 0px) {
@@ -1273,6 +1274,13 @@ html, body {
     display: flex;
     flex-direction: row;
   }
+}
+
+.Gallery_label {
+  padding: 0.5rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  text-decoration-line: underline;
 }
 
 @media (min-width: 450px) {

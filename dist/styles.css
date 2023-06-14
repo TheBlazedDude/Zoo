@@ -427,7 +427,7 @@ html, body {
 }
 
 .gallery_container {
-    @apply w-11/12 mx-auto bg-gray-300 flex flex-col
+    @apply w-11/12 mx-auto bg-gray-300 flex flex-col pr-2
 }
 @media screen(zero) {
     .gallery_content {
@@ -445,6 +445,10 @@ html, body {
     .gallery_content {
         @apply flex flex-row mx-auto
     }
+}
+
+.Gallery_label {
+    @apply text-lg p-2 underline
 }
 
 @media screen(sl) {

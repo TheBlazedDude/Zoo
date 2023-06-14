@@ -23,12 +23,11 @@
     div.gallery {
         margin: 5px;
         border: 1px solid #ccc;
-
-
+        max-height: 320px;
+        max-width: 164px;
         min-height: 220px;
-        min-width: 117px;
+        min-width: 120px;
     }
-
     div.gallery:hover {
         border: 1px solid #777;
     }
@@ -133,75 +132,13 @@
     </div>
 </header>
 
-<!--<div class="container" style="min-width: 80%">-->
-<!--    <div class="galerie_title">-->
-<!--        <h1>Galerie 2022</h1>-->
-<!--        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>-->
-
-<!--    </div>-->
-<!--    <div class="hideSlides">-->
-<!--        <div class="mySlides" style="display: block">-->
-<!--            <img src="../../src/images/slideshow/img_woods_wide.jpg" alt="image" height="350">-->
-<!--        </div>-->
-
-<!--        <div class="mySlides">-->
-<!--            <img src="../../src/images/slideshow/img_5terre_wide.jpg" alt="image" height="350">-->
-<!--        </div>-->
-
-<!--        <div class="mySlides">-->
-<!--            <img src="../../src/images/slideshow/img_mountains_wide.jpg" alt="image" height="350">-->
-<!--        </div>-->
-
-<!--        <div class="mySlides">-->
-<!--            <img src="../../src/images/slideshow/img_lights_wide.jpg" alt="image" height="350">-->
-<!--        </div>-->
-
-<!--        <div class="mySlides">-->
-<!--            <img src="../../src/images/slideshow/img_nature_wide.jpg" alt="image" height="350">-->
-<!--        </div>-->
-
-<!--        <div class="mySlides">-->
-<!--            <img src="../../src/images/slideshow/img_snow_wide.jpg" alt="image" height="350">-->
-<!--        </div>-->
-
-<!--        &lt;!&ndash; Next and previous buttons &ndash;&gt;-->
-<!--        <a class="prev" href="javascript:plusSlides(-1)">&#10094;</a>-->
-<!--        <a class="next" href="javascript:plusSlides(1)">&#10095;</a>-->
-
-<!--        &lt;!&ndash; Image text &ndash;&gt;-->
-<!--        <div class="caption-container">-->
-<!--            <p id="caption">The Woods</p>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--    &lt;!&ndash; Thumbnail images &ndash;&gt;-->
-<!--    <div class="Slides row mx-auto" style="width: 80%">-->
-<!--        <div class="column">-->
-<!--            <img class="demo cursor" src="../../src/images/slideshow/img_woods.jpg" width="600" height="400" onclick="currentSlide(1)" alt="The Woods">-->
-<!--        </div>-->
-<!--        <div class="column">-->
-<!--            <img class="demo cursor" src="../../src/images/slideshow/img_5terre.jpg" width="600" height="400" onclick="currentSlide(2)" alt="Cinque Terre">-->
-<!--        </div>-->
-<!--        <div class="column">-->
-<!--            <img class="demo cursor" src="../../src/images/slideshow/img_mountains.jpg" width="600" height="400" onclick="currentSlide(3)" alt="Mountains and fjords">-->
-<!--        </div>-->
-<!--        <div class="column">-->
-<!--            <img class="demo cursor" src="../../src/images/slideshow/img_lights.jpg" width="600" height="400" onclick="currentSlide(4)" alt="Northern Lights">-->
-<!--        </div>-->
-<!--        <div class="column">-->
-<!--            <img class="demo cursor" src="../../src/images/slideshow/img_nature.jpg" width="600" height="400" onclick="currentSlide(5)" alt="Nature and sunrise">-->
-<!--        </div>-->
-<!--        <div class="column">-->
-<!--            <img class="demo cursor" src="../../src/images/slideshow/img_snow.jpg" width="600" height="400" onclick="currentSlide(6)" alt="Snowy Mountains">-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
-
 <div class="gallery_container mx-auto">
     <div class="gallery_title">
         <h2>Gallery 2022</h2>
-        <p></p>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
     </div>
-    <div class="hiddenHelper flex-wrap mx-auto">
+    <div class="hiddenHelper flex-col mx-auto">
+        <label class="Gallery_label">unsere Vipern</label>
         <div class="gallery_content flex flex-col">
             <div class="gallery">
                 <a target="_blank" href="../../src/images/Snakes/Aeskulapnatter.jpg">
@@ -228,6 +165,7 @@
                 <div class="desc">Add a description of the image here</div>
             </div>
         </div>
+        <label class="Gallery_label">unsere Cobras</label>
         <div class="gallery_content flex flex-col">
             <div class="gallery">
                 <a target="_blank" href="../../src/images/Snakes/Aeskulapnatter.jpg">
@@ -254,6 +192,7 @@
                 <div class="desc">Add a description of the image here</div>
             </div>
         </div>
+        <label class="Gallery_label">unsere Ottern</label>
         <div class="gallery_content flex flex-col">
             <div class="gallery">
                 <a target="_blank" href="../../src/images/Snakes/Aeskulapnatter.jpg">
@@ -289,7 +228,6 @@
     <div class="content_footer_a">
         <a href="../Footer/Impressum.html" target="popup" onclick="window.open('../Footer/Impressum.html','popup','width=600,height=600,bg-blue-500'); return false;">Impressum</a>
         <a href="../Footer/DSGVO.html" target="popup" onclick="window.open('../Footer/DSGVO.html','popup','width=600,height=600,bg-blue-500'); return false;">DSGVO</a>
-        <a href="../Footer/partner.html">Partner</a>
     </div>
 
     <div class="content_footer_b">
