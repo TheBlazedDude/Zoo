@@ -383,6 +383,41 @@ html, body {
     @apply p-2
 }
 
+.us_content img {
+    @apply w-1/12 p-2 border border-black
+}
+
+
+
+@media screen(zero) {
+    .flex_img {
+        @apply flex flex-col
+    }
+}
+
+@media screen(sm) {
+    .flex_img {
+        @apply flex flex-row mx-auto
+    }
+}
+
+@media screen(zero) {
+    .img_description {
+        @apply text-center
+    }
+}
+
+@media screen(sm) {
+    .img_description {
+        @apply text-left
+    }
+}
+
+.flex_img img {
+    @apply mx-auto
+}
+
+
 .us_content h2{
     @apply px-2 font-bold text-xl
 }
@@ -487,11 +522,11 @@ html, body {
 }
 
 .contact {
-    @apply w-10/12 mx-auto bg-gray-300 pb-4
+    @apply w-10/12 mx-auto bg-gray-200 pb-4
 }
 
 .contactDescription {
-    @apply w-11/12 mx-auto p-2
+    @apply w-10/12 mx-auto p-2
 }
 
 .contactDescription h2 {
@@ -503,12 +538,8 @@ html, body {
 }
 
 .contactFormContainer {
-    @apply p-4 bg-gray-200 w-10/12 mx-auto
+    @apply p-2 bg-gray-200 w-10/12 mx-auto
 }
-
-/*.contactFormContainer h1 {*/
-/*    @apply text-center*/
-/*}*/
 
 .form_content {
     @apply py-4 px-6 bg-gray-100
