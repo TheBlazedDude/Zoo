@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="This Website displays Snakes from all over the World">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="Benedict Brück">
     <title>Snake Zoo</title>
-    <!--    <script src="../../dist/script.js"></script>-->
     <link rel="stylesheet" href="../../dist/output.css">
-    <link rel="stylesheet" href="../../dist/slideshow.css">
+<!--    <script type="text/javascript" src="../../dist/app.js"></script>-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--    <script type="text/javascript" src="../../dist/app.js"></script>-->
     <link rel="apple-touch-icon" sizes="180x180" href="../../src/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../../src/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../../src/favicon/favicon-16x16.png">
@@ -19,8 +18,6 @@
     <meta name="msapplication-TileColor" content="#141c27">
     <meta name="theme-color" content="#ffffff">
 </head>
-
-
 
 <body>
 <header>
@@ -74,8 +71,8 @@
                     <button class="peer navButton hover:bg-blue-700 ">Galerie</button>
                     <!-- the menu here -->
                     <div class="hiddenDiv hidden peer-hover:flex hover:flex">
-                        <a class="hover:bg-gray-200" href="galerie_2023.html">2023</a>
-                        <a class="hover:bg-gray-200" href="galerie_2022.html">2022</a>
+                        <a class="hover:bg-gray-200" href="../Galerie/galerie_2023.html">2023</a>
+                        <a class="hover:bg-gray-200" href="../Galerie/galerie_2022.html">2022</a>
                     </div>
                 </div>
                 <div class="flex-1">
@@ -83,7 +80,7 @@
                     <!-- the menu here -->
                     <div class="hiddenDiv hidden peer-hover:flex hover:flex">
                         <a class="hover:bg-gray-200" href="../Kontakt/kontaktformular.html">Kontaktformular</a>
-                        <a class="hover:bg-gray-200" href="../Kontakt/tiereInNot.html">Tiere in Not</a>
+                        <a class="hover:bg-gray-200" href="tiereInNot.html">Tiere in Not</a>
                     </div>
                 </div>
                 <div class="flex-1">
@@ -100,10 +97,10 @@
         <div class="hiddenDiv2 hidden peer2-hover:flex hover:flex" style="right: 0">
             <a class="hover:bg-gray-200" href="../Oeffnungszeit/oeffnungszeiten.html">Öffnungszeiten</a>
             <a class="hover:bg-gray-200" href="../Ticket/tickets.html">Tickets</a>
-            <a class="hover:bg-gray-200" href="galerie_2023.html">Galerie 2023</a>
-            <a class="hover:bg-gray-200" href="galerie_2022.html">Galerie 2022</a>
+            <a class="hover:bg-gray-200" href="../Galerie/galerie_2023.html">Galerie 2023</a>
+            <a class="hover:bg-gray-200" href="../Galerie/galerie_2022.html">Galerie 2022</a>
             <a class="hover:bg-gray-200" href="../Kontakt/kontaktformular.html">Kontakt</a>
-            <a class="hover:bg-gray-200" href="../Kontakt/tiereInNot.html">TiereInNot</a>
+            <a class="hover:bg-gray-200" href="tiereInNot.html">TiereInNot</a>
             <a class="hover:bg-gray-200" href="../UeberUns/leitbild.html">Leitbild</a>
             <a class="hover:bg-gray-200" href="../UeberUns/team.html">Team</a>
 
@@ -111,73 +108,60 @@
     </div>
 </header>
 
-<div class="container" style="min-width: 80%">
-    <div class="galerie_title">
-        <h1>Galerie 2023</h1>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+<div class="contact ">
+    <div class="contactDescription">
+        <h2>Kontaktformular</h2>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
     </div>
-    <div class="hideSlides">
-        <div class="mySlides" style="display: block">
-            <!--        <div class="numbertext">1 / 6</div>-->
-            <img src="../../src/images/slideshow/img_woods_wide.jpg" alt="image" height="350">
-        </div>
 
-        <div class="mySlides">
-            <!--        <div class="numbertext">2 / 6</div>-->
-            <img src="../../src/images/slideshow/img_5terre_wide.jpg" alt="image" height="350">
-        </div>
+    <div class="contactFormContainer">
+        <div class="form_content p-2">
+            <h1>Kontaktformular</h1>
+            <form class="flex flex-col">
 
-        <div class="mySlides">
-            <!--        <div class="numbertext">3 / 6</div>-->
-            <img src="../../src/images/slideshow/img_mountains_wide.jpg" alt="image" height="350">
-        </div>
+                <label for="Vorname">Vorname</label>
+                <input id="Vorname" type="text"/>
 
-        <div class="mySlides">
-            <!--        <div class="numbertext">4 / 6</div>-->
-            <img src="../../src/images/slideshow/img_lights_wide.jpg" alt="image" height="350">
-        </div>
+                <label for="Nachname">Nachname</label>
+                <input id="Nachname" type="text"/>
 
-        <div class="mySlides">
-            <!--        <div class="numbertext">5 / 6</div>-->
-            <img src="../../src/images/slideshow/img_nature_wide.jpg" alt="image" height="350">
-        </div>
+                <label for="Email">Email</label>
+                <input id="Email" type="text"/>
 
-        <div class="mySlides">
-            <!--        <div class="numbertext">6 / 6</div>-->
-            <img src="../../src/images/slideshow/img_snow_wide.jpg" alt="image" height="350">
-        </div>
+                <label for="Titel">Titel</label>
+                <input id="Titel" type="text" />
 
-        <!-- Next and previous buttons -->
-        <a class="prev" href="javascript:plusSlides(-1)">&#10094;</a>
-        <a class="next" href="javascript:plusSlides(1)">&#10095;</a>
+                <label for="Beschreibung">Beschreibung</label>
+                <textarea id="Beschreibung" style="min-height: 146px"></textarea>
 
-        <!-- Image text -->
-        <div class="caption-container">
-            <p id="caption">The Wood</p>
-        </div>
-    </div>
-    <!-- Thumbnail images -->
-    <div class="Slides row mx-auto" style="width: 80%">
-        <div class="column">
-            <img class="demo cursor" src="../../src/images/slideshow/img_woods.jpg" width="600" height="400" onclick="currentSlide(1)" alt="The Woods">
-        </div>
-        <div class="column">
-            <img class="demo cursor" src="../../src/images/slideshow/img_5terre.jpg" width="600" height="400" onclick="currentSlide(2)" alt="Cinque Terre">
-        </div>
-        <div class="column">
-            <img class="demo cursor" src="../../src/images/slideshow/img_mountains.jpg" width="600" height="400" onclick="currentSlide(3)" alt="Mountains and fjords">
-        </div>
-        <div class="column">
-            <img class="demo cursor" src="../../src/images/slideshow/img_lights.jpg" width="600" height="400" onclick="currentSlide(4)" alt="Northern Lights">
-        </div>
-        <div class="column">
-            <img class="demo cursor" src="../../src/images/slideshow/img_nature.jpg" width="600" height="400" onclick="currentSlide(5)" alt="Nature and sunrise">
-        </div>
-        <div class="column">
-            <img class="demo cursor" src="../../src/images/slideshow/img_snow.jpg" width="600" height="400" onclick="currentSlide(6)" alt="Snowy Mountains">
+                <div class="formInputs">
+                    <div class="formSelect">
+                        <label>Thema:
+                            <select>
+                                <option class="disabled">Wähle eine Kategorie</option>
+                                <option>Haltung</option>
+                                <option>Lebensraum</option>
+                                <option>Zucht</option>
+                                <option>Abgabe von Tieren</option>
+                                <option>Anderes</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="formCheckbox">
+
+                    </div>
+
+
+                    <div class="formButtons">
+                        <button class="SendButton" formmethod="POST">Senden</button>
+                    </div>
+                </div>
+
+            </form>
         </div>
     </div>
 </div>
+
 
 <footer class="relative">
     <div class="content_footer_a">
@@ -198,37 +182,3 @@
 </body>
 
 </html>
-
-<script>
-    let slideIndex = 1;
-    showSlides(slideIndex);
-
-    // Next/previous controls
-    function plusSlides(n) {
-        showSlides(slideIndex += n);
-    }
-
-    // Thumbnail image controls
-    function currentSlide(n) {
-        showSlides(slideIndex = n);
-    }
-
-    function showSlides(n) {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("demo");
-        let captionText = document.getElementById("caption");
-        if (n > slides.length) {slideIndex = 1}
-        if (n < 1) {slideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex-1].style.display = " block";
-        dots[slideIndex-1].className += " active";
-        captionText.innerHTML = dots[slideIndex-1].alt;
-    }
-</script>
-
