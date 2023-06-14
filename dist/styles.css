@@ -8,12 +8,19 @@ header {
     @apply text-black
 }
 
-.galerie_title {
-    @apply mx-auto flex bg-gray-100 w-4/5
+@media screen(zero){
+    .galerie_title {
+        @apply mx-auto flex flex-col bg-gray-100 w-4/5
+    }
 }
 
+
 .galerie_title h1 {
-    @apply mx-auto text-lg
+    @apply text-center text-lg underline
+}
+
+.galerie_title p {
+    @apply text-center p-2
 }
 
 .container {
@@ -445,8 +452,24 @@ header {
     @apply p-2
 }
 
+.contact {
+    @apply w-10/12 mx-auto bg-gray-300 pb-4
+}
+
+.contactDescription {
+    @apply w-11/12 mx-auto p-2
+}
+
+.contactDescription h2 {
+    @apply text-center text-lg underline bg-white
+}
+
+.contactDescription p {
+    @apply text-center p-4 pt-2 bg-white
+}
+
 .contactFormContainer {
-    @apply p-4 bg-gray-200 w-4/5 mx-auto
+    @apply p-4 bg-gray-200 w-10/12 mx-auto
 }
 
 /*.contactFormContainer h1 {*/

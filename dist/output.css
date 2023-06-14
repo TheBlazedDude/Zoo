@@ -589,20 +589,28 @@ header {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
-.galerie_title {
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  width: 80%;
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+@media (min-width: 0px){
+  .galerie_title {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    --tw-bg-opacity: 1;
+    background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+  }
 }
 
 .galerie_title h1 {
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
   font-size: 1.125rem;
   line-height: 1.75rem;
+  text-decoration-line: underline;
+}
+
+.galerie_title p {
+  padding: 0.5rem;
+  text-align: center;
 }
 
 .container {
@@ -1272,10 +1280,43 @@ header {
   padding: 0.5rem;
 }
 
+.contact {
+  margin-left: auto;
+  margin-right: auto;
+  width: 83.333333%;
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+  padding-bottom: 1rem;
+}
+
+.contactDescription {
+  margin-left: auto;
+  margin-right: auto;
+  width: 91.666667%;
+  padding: 0.5rem;
+}
+
+.contactDescription h2 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  text-align: center;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  text-decoration-line: underline;
+}
+
+.contactDescription p {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding: 1rem;
+  padding-top: 0.5rem;
+  text-align: center;
+}
+
 .contactFormContainer {
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
+  width: 83.333333%;
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
   padding: 1rem;
