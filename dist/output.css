@@ -882,6 +882,11 @@ header {
 
 /**body**/
 
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
 .info_container {
   position: relative;
   display: flex;
@@ -1190,6 +1195,73 @@ header {
 
 .us_content p {
   padding: 0.5rem;
+}
+
+.gallery_container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 91.666667%;
+  flex-direction: column;
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+
+@media (min-width: 0px) {
+  .gallery_content {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 560px) {
+  .gallery_content {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 838px) {
+  .gallery_content {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 450px) {
+  .hiddenHelper {
+    display: block;
+  }
+}
+
+@media (min-width: 1024px) {
+  .hiddenHelper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.gallery_title h2 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  text-decoration-line: underline;
+}
+
+.gallery_title p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 83.333333%;
+  padding-bottom: 0.5rem;
+  text-align: center;
 }
 
 .Snake_container_a {
@@ -1600,8 +1672,7 @@ aside a  div h1 {
 /**footer**/
 
 footer {
-  position: relative;
-  bottom: 0px;
+  bottom: -0.25rem;
   display: flex;
   width: 100%;
   border-width: 1px;

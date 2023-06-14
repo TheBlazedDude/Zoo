@@ -161,6 +161,10 @@ header {
 
 
 /**body**/
+html, body {
+    margin: 0;
+    height: 100%;
+}
 .info_container {
     @apply flex bg-gray-100 relative
 }
@@ -387,15 +391,45 @@ header {
     @apply p-2
 }
 
+.gallery_container {
+    @apply w-11/12 mx-auto bg-gray-300 flex flex-col
+}
+@media screen(zero) {
+    .gallery_content {
+        @apply flex flex-col mx-auto
+    }
+}
 
+@media screen(560) {
+    .gallery_content {
+        @apply flex flex-row mx-auto
+    }
+}
 
+@media screen(md) {
+    .gallery_content {
+        @apply flex flex-row mx-auto
+    }
+}
 
+@media screen(sl) {
+    .hiddenHelper {
+        @apply block
+    }
+}
 
+@media screen(lg) {
+    .hiddenHelper {
+        @apply flex flex-wrap
+    }
+}
 
-
-
-
-
+.gallery_title h2{
+    @apply text-center mx-auto text-lg underline
+}
+.gallery_title p{
+    @apply w-10/12 text-center mx-auto pb-2
+}
 
 .Snake_container_a {
     @apply flex bg-gray-100
@@ -657,7 +691,7 @@ aside a  div h1{
 
 /**footer**/
 footer {
-    @apply relative bottom-0 w-full flex border bg-gray-300
+    @apply  -bottom-1 w-full flex border bg-gray-300
 }
 
 .content_footer_a {

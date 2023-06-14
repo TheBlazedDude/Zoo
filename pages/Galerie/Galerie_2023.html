@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="This Website displays Snakes from all over the World">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="author" content="Benedict Brück">
     <title>Snake Zoo</title>
-<!--    <script src="../../dist/script.js"></script>-->
+    <!--    <script src="../../dist/script.js"></script>-->
     <link rel="stylesheet" href="../../dist/output.css">
     <link rel="stylesheet" href="../../dist/slideshow.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--    <script type="text/javascript" src="../../dist/app.js"></script>-->
+    <!--    <script type="text/javascript" src="../../dist/app.js"></script>-->
     <link rel="apple-touch-icon" sizes="180x180" href="../../src/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../../src/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../../src/favicon/favicon-16x16.png">
@@ -19,9 +20,31 @@
     <meta name="msapplication-TileColor" content="#141c27">
     <meta name="theme-color" content="#ffffff">
 </head>
+<style>
+    div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        max-height: 320px;
+        max-width: 164px;
+        min-height: 220px;
+        min-width: 117px;
+    }
 
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
 
+    div.gallery img {
+        width: 100%;
+        height: auto;
+        min-height: 117px;
+    }
 
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
+</style>
 <body>
 <header>
     <div class="header_content_a">
@@ -111,73 +134,120 @@
     </div>
 </header>
 
-<div class="container" style="min-width: 80%">
-    <div class="galerie_title">
-        <h1>Galerie 2023</h1>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+<div class="gallery_container mx-auto">
+    <div class="gallery_title">
+        <h2>Gallery 2023</h2>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
     </div>
-    <div class="hideSlides">
-    <div class="mySlides" style="display: block">
-<!--        <div class="numbertext">1 / 6</div>-->
-        <img src="../../src/images/slideshow/img_woods_wide.jpg" alt="image" height="350">
-    </div>
-
-    <div class="mySlides">
-<!--        <div class="numbertext">2 / 6</div>-->
-        <img src="../../src/images/slideshow/img_5terre_wide.jpg" alt="image" height="350">
-    </div>
-
-    <div class="mySlides">
-<!--        <div class="numbertext">3 / 6</div>-->
-        <img src="../../src/images/slideshow/img_mountains_wide.jpg" alt="image" height="350">
-    </div>
-
-    <div class="mySlides">
-<!--        <div class="numbertext">4 / 6</div>-->
-        <img src="../../src/images/slideshow/img_lights_wide.jpg" alt="image" height="350">
-    </div>
-
-    <div class="mySlides">
-<!--        <div class="numbertext">5 / 6</div>-->
-        <img src="../../src/images/slideshow/img_nature_wide.jpg" alt="image" height="350">
-    </div>
-
-    <div class="mySlides">
-<!--        <div class="numbertext">6 / 6</div>-->
-        <img src="../../src/images/slideshow/img_snow_wide.jpg" alt="image" height="350">
-    </div>
-
-    <!-- Next and previous buttons -->
-    <a class="prev" href="javascript:plusSlides(-1)">&#10094;</a>
-    <a class="next" href="javascript:plusSlides(1)">&#10095;</a>
-
-    <!-- Image text -->
-    <div class="caption-container">
-        <p id="caption">The Wood</p>
-    </div>
-    </div>
-    <!-- Thumbnail images -->
-    <div class="Slides row mx-auto" style="width: 80%">
-        <div class="column">
-            <img class="demo cursor" src="../../src/images/slideshow/img_woods.jpg" width="600" height="400" onclick="currentSlide(1)" alt="The Woods">
+    <div class="hiddenHelper flex-wrap mx-auto">
+        <div class="gallery_content ">
+            <div class="gallery">
+                <a target="_blank" href="../../src/images/Snakes/Aeskulapnatter.jpg">
+                    <img class="img_gallery" src="../../src/images/Snakes/Aeskulapnatter.jpg" alt="Cinque Terre" width="700" height="437">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+            <div class="gallery">
+                <a target="_blank" href="../../src/images/Snakes/B._constrictor.jpg">
+                    <img class="img_gallery" src="../../src/images/Snakes/B._constrictor.jpg" alt="Forest" width="800" height="454">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+            <div class="gallery">
+                <a target="_blank" href="../../src/images/Snakes/basilisken_klapperschlange_l.jpg">
+                    <img class="img_gallery" src="../../src/images/Snakes/basilisken_klapperschlange_l.jpg" alt="Northern Lights" width="720" height="480">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+            <div class="gallery">
+                <a target="_blank" href="../../src/images/Snakes/Blood-red-Corn-Snake.jpg">
+                    <img class="img_gallery" src="../../src/images/Snakes/Blood-red-Corn-Snake.jpg" alt="Mountains" width="800" height="533">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
         </div>
-        <div class="column">
-            <img class="demo cursor" src="../../src/images/slideshow/img_5terre.jpg" width="600" height="400" onclick="currentSlide(2)" alt="Cinque Terre">
+        <div class="gallery_content ">
+            <div class="gallery">
+                <a target="_blank" href="../../src/images/Snakes/Aeskulapnatter.jpg">
+                    <img class="img_gallery" src="../../src/images/Snakes/Aeskulapnatter.jpg" alt="Cinque Terre" width="700" height="437">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+            <div class="gallery">
+                <a target="_blank" href="../../src/images/Snakes/B._constrictor.jpg">
+                    <img class="img_gallery" src="../../src/images/Snakes/B._constrictor.jpg" alt="Forest" width="800" height="454">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+            <div class="gallery">
+                <a target="_blank" href="../../src/images/Snakes/basilisken_klapperschlange_l.jpg">
+                    <img class="img_gallery" src="../../src/images/Snakes/basilisken_klapperschlange_l.jpg" alt="Northern Lights" width="720" height="480">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+            <div class="gallery">
+                <a target="_blank" href="../../src/images/Snakes/Blood-red-Corn-Snake.jpg">
+                    <img class="img_gallery" src="../../src/images/Snakes/Blood-red-Corn-Snake.jpg" alt="Mountains" width="800" height="533">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
         </div>
-        <div class="column">
-            <img class="demo cursor" src="../../src/images/slideshow/img_mountains.jpg" width="600" height="400" onclick="currentSlide(3)" alt="Mountains and fjords">
+        <div class="gallery_content ">
+            <div class="gallery">
+                <a target="_blank" href="../../src/images/Snakes/Aeskulapnatter.jpg">
+                    <img class="img_gallery" src="../../src/images/Snakes/Aeskulapnatter.jpg" alt="Cinque Terre" width="700" height="437">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+            <div class="gallery">
+                <a target="_blank" href="../../src/images/Snakes/B._constrictor.jpg">
+                    <img class="img_gallery" src="../../src/images/Snakes/B._constrictor.jpg" alt="Forest" width="800" height="454">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+            <div class="gallery">
+                <a target="_blank" href="../../src/images/Snakes/basilisken_klapperschlange_l.jpg">
+                    <img class="img_gallery" src="../../src/images/Snakes/basilisken_klapperschlange_l.jpg" alt="Northern Lights" width="720" height="480">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+            <div class="gallery">
+                <a target="_blank" href="../../src/images/Snakes/Blood-red-Corn-Snake.jpg">
+                    <img class="img_gallery" src="../../src/images/Snakes/Blood-red-Corn-Snake.jpg" alt="Mountains" width="800" height="533">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
         </div>
-        <div class="column">
-            <img class="demo cursor" src="../../src/images/slideshow/img_lights.jpg" width="600" height="400" onclick="currentSlide(4)" alt="Northern Lights">
-        </div>
-        <div class="column">
-            <img class="demo cursor" src="../../src/images/slideshow/img_nature.jpg" width="600" height="400" onclick="currentSlide(5)" alt="Nature and sunrise">
-        </div>
-        <div class="column">
-            <img class="demo cursor" src="../../src/images/slideshow/img_snow.jpg" width="600" height="400" onclick="currentSlide(6)" alt="Snowy Mountains">
+        <div class="gallery_content ">
+            <div class="gallery">
+                <a target="_blank" href="../../src/images/Snakes/Aeskulapnatter.jpg">
+                    <img class="img_gallery" src="../../src/images/Snakes/Aeskulapnatter.jpg" alt="Cinque Terre" width="700" height="437">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+            <div class="gallery">
+                <a target="_blank" href="../../src/images/Snakes/B._constrictor.jpg">
+                    <img class="img_gallery" src="../../src/images/Snakes/B._constrictor.jpg" alt="Forest" width="800" height="454">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+            <div class="gallery">
+                <a target="_blank" href="../../src/images/Snakes/basilisken_klapperschlange_l.jpg">
+                    <img class="img_gallery" src="../../src/images/Snakes/basilisken_klapperschlange_l.jpg" alt="Northern Lights" width="720" height="480">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
+            <div class="gallery">
+                <a target="_blank" href="../../src/images/Snakes/Blood-red-Corn-Snake.jpg">
+                    <img class="img_gallery" src="../../src/images/Snakes/Blood-red-Corn-Snake.jpg" alt="Mountains" width="800" height="533">
+                </a>
+                <div class="desc">Add a description of the image here</div>
+            </div>
         </div>
     </div>
+
 </div>
+
 
 <footer class="relative">
     <div class="content_footer_a">
@@ -232,4 +302,3 @@
         captionText.innerHTML = dots[slideIndex-1].alt;
     }
 </script>
-
