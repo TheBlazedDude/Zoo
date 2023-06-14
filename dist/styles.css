@@ -724,6 +724,10 @@ aside a  div h1{
     }
 }
 
+div.gallery {
+
+}
+
 /**footer**/
 footer {
     @apply  -bottom-1 w-full flex border bg-gray-300
