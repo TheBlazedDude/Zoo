@@ -612,7 +612,16 @@ html, body {
     }
 }
 
+.contentTiereInNot {
+    @apply border w-1/2 m-2 bg-gray-100
+}
 
+.tierschutz_img_container {
+    @apply flex p-4
+}
+.tierschutz_img {
+    @apply w-1/2 h-1/3 p-4
+}
 
 
 

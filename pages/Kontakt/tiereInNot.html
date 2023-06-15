@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="This Website displays Snakes from all over the World">
@@ -7,8 +8,8 @@
     <meta name="author" content="Benedict Brück">
     <title>Snake Zoo</title>
     <link rel="stylesheet" href="../../dist/output.css">
+    <!--    <script type="text/javascript" src="../../dist/app.js"></script>-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--    <script type="text/javascript" src="../../dist/app.js"></script>-->
     <link rel="apple-touch-icon" sizes="180x180" href="../../src/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../../src/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../../src/favicon/favicon-16x16.png">
@@ -16,6 +17,14 @@
     <link rel="mask-icon" href="../../src/favicon/safari-pinned-tab.svg" color="#141c27">
     <meta name="msapplication-TileColor" content="#141c27">
     <meta name="theme-color" content="#ffffff">
+    <style>
+        div.tierschutz_img_container img {
+            min-height: 370px;
+            min-width: 430px;
+            max-width: 430px;
+            max-height: 370px;
+        }
+    </style>
 </head>
 
 <body>
@@ -78,7 +87,7 @@
                     <button class="peer navButton hover:bg-blue-700 ">Kontakt</button>
                     <!-- the menu here -->
                     <div class="hiddenDiv hidden peer-hover:flex hover:flex">
-                        <a class="hover:bg-gray-200" href="kontaktformular.html">Kontaktformular</a>
+                        <a class="hover:bg-gray-200" href="../Kontakt/kontaktformular.html">Kontaktformular</a>
                         <a class="hover:bg-gray-200" href="../Kontakt/tiereInNot.html">Tiere in Not</a>
                     </div>
                 </div>
@@ -98,7 +107,7 @@
             <a class="hover:bg-gray-200" href="../Ticket/tickets.html">Tickets</a>
             <a class="hover:bg-gray-200" href="../Galerie/galerie_2023.html">Galerie 2023</a>
             <a class="hover:bg-gray-200" href="../Galerie/galerie_2022.html">Galerie 2022</a>
-            <a class="hover:bg-gray-200" href="kontaktformular.html">Kontakt</a>
+            <a class="hover:bg-gray-200" href="../Kontakt/kontaktformular.html">Kontakt</a>
             <a class="hover:bg-gray-200" href="../Kontakt/tiereInNot.html">TiereInNot</a>
             <a class="hover:bg-gray-200" href="../UeberUns/leitbild.html">Leitbild</a>
             <a class="hover:bg-gray-200" href="../UeberUns/team.html">Team</a>
@@ -107,11 +116,80 @@
     </div>
 </header>
 
-<div>
+<div class="info_container">
+    <div class="info_content">
+        <div class="info_text">
+            <h2 class="info_title">
+                Tiere in Not
+            </h2>
+            <p class="info_text">
+                Falls Sie Haustiere oder Reptilien haben, um die Sie sich nicht mehr kümmern können. Können Sie sich gerne via Kontaktformular bei uns melden. Da wir aber nur auf Schlangen spezialisiert sind, lohnt es sich auch bei den Folgenden Addressen Anzufragen.
+            </p>
+            <div class="tierschutz_img_container">
+                <div class="tierschutz_img">
+                    <img src="../../src/images/tierschutz/news-tierschutz21.jpg" alt="" width="300" height="308">
+                </div>
+                <div class="tierschutz_img">
+                    <img src="../../src/images/tierschutz/cropped-cropped-Logo-Tierschutz-fuer-vergessene-Seelen-schwarz.png" alt="" width="500" height="407">
+                </div>
+            </div>
+            <div class="tiereInNot_Container flex flex-col">
+                <div class="tiereInNot_Container flex flex-row">
+                    <div class="contentTiereInNot">
+                        <a href="https://wsb.tierschutz-kreuzlingen.ch/index.html">
+                            <h3>
+                                Tierrettungsstation Kreuzlingen
+                            </h3>
+                            <p>
+                                Sägenöschstrasse 2, 8280 Kreuzlingen
+                            </p>
+                        </a>
+                    </div>
+                    <div class="contentTiereInNot">
+                        <a href="https://www.vier-pfoten.ch/">
+                            <h3>
+                                Vier Pfoten
+                            </h3>
+                            <p>
+                                Altstetterstrasse 124 8048 Zürich
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="tiereInNot_Container flex flex-row">
+                    <div class="contentTiereInNot">
+                        <a href="https://www.tierrettungsdienst.ch/">
+                            <h3>
+                                Hofstetter's Tierrettung Schweiz
+                            </h3>
+                            <p>
+                                St. Gallerstrasse 31, 8856 Tuggen
+                            </p>
+                        </a>
+                    </div>
+                    <div class="contentTiereInNot">
+                        <a href="https://tierrettungschweiz.com/Ueber-Uns/Konzept/index.php/">
+                            <h3>
+                                Stiftung TierRettungsDienst Leben hat Vortritt
+                            </h3>
+                            <p>
+                                Lufingerstrasse 1, 8185 Winkel
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
 
+            <div class="notes" style="font-size: x-small">
+                <p>
+                    Wir nehmen uns das Recht vor, Tiere die in einer Qualaufzucht aufgezogen wurden und daher kein Soziales Leben mit anderen Tieren führen abzulehnen. Desweiteren werden wir bei einer Festgestellten Qualzucht ebenfalls DIe Behörden vor Ort darüber informieren. DIes ist zum Schutz aller Tiere in der Schweiz.
+                </p>
+            </div>
+        </div>
+    </div>
 </div>
 
-<footer class="relative">
+<footer>
     <div class="content_footer_a">
         <a href="../Footer/impressum.html" target="popup" onclick="window.open('../Footer/Impressum.html','popup','width=600,height=600,bg-blue-500'); return false;">Impressum</a>
         <a href="../Footer/dsgvo.html" target="popup" onclick="window.open('../Footer/DSGVO.html','popup','width=600,height=600,bg-blue-500'); return false;">DSGVO</a>
@@ -128,6 +206,5 @@
     </div>
 </footer>
 </body>
-
 
 </html>
