@@ -612,12 +612,37 @@ html, body {
     }
 }
 
-.contentTiereInNot {
-    @apply border w-1/2 m-2 bg-gray-100 text-center
+.contentTiereInNot a h3 {
+    font-weight: bold;
 }
 
+@media screen(zero){
+    .contentTiereInNot {
+        @apply border w-full m-2 bg-gray-100 text-center
+    }
+}
+
+@media screen(sl){
+    .contentTiereInNot {
+        @apply border w-1/2 m-2 bg-gray-100 text-center
+    }
+}
+
+
 .tiereInNot_Container {
-    @apply flex
+    @apply w-full
+}
+
+@media screen(zero) {
+    .tiereInNot_Container {
+        @apply flex-wrap mx-auto
+    }
+}
+
+@media screen(sl) {
+    .tiereInNot_Container {
+        @apply flex-nowrap
+    }
 }
 
 .tierschutz_img_container {
