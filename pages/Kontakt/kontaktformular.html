@@ -109,57 +109,58 @@
 </header>
 
 <div class="contact ">
-    <div class="contactDescription">
-        <h2>Kontaktformular</h2>
-        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-    </div>
+    <div class="info_text info_content">
+        <h2 class="info_title">Kontaktformular</h2>
+        <p class="info_text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        <div class="contactFormContainer">
+            <div class="form_content p-2">
+                <h1>Kontaktformular</h1>
+                <form class="flex flex-col">
 
-    <div class="contactFormContainer">
-        <div class="form_content p-2">
-            <h1>Kontaktformular</h1>
-            <form class="flex flex-col">
+                    <label for="Vorname">Vorname</label>
+                    <input id="Vorname" type="text"/>
 
-                <label for="Vorname">Vorname</label>
-                <input id="Vorname" type="text"/>
+                    <label for="Nachname">Nachname</label>
+                    <input id="Nachname" type="text"/>
 
-                <label for="Nachname">Nachname</label>
-                <input id="Nachname" type="text"/>
+                    <label for="Email">Email</label>
+                    <input id="Email" type="text"/>
 
-                <label for="Email">Email</label>
-                <input id="Email" type="text"/>
+                    <label for="Titel">Titel</label>
+                    <input id="Titel" type="text" />
 
-                <label for="Titel">Titel</label>
-                <input id="Titel" type="text" />
+                    <label for="Beschreibung">Beschreibung</label>
+                    <textarea id="Beschreibung" style="min-height: 146px"></textarea>
 
-                <label for="Beschreibung">Beschreibung</label>
-                <textarea id="Beschreibung" style="min-height: 146px"></textarea>
+                    <div class="formInputs">
+                        <div class="formSelect">
+                            <label>Thema:
+                                <select>
+                                    <option class="disabled">Wähle eine Kategorie</option>
+                                    <option>Haltung</option>
+                                    <option>Lebensraum</option>
+                                    <option>Zucht</option>
+                                    <option>Abgabe von Tieren</option>
+                                    <option>Anderes</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div class="formCheckbox">
 
-                <div class="formInputs">
-                    <div class="formSelect">
-                        <label>Thema:
-                            <select>
-                                <option class="disabled">Wähle eine Kategorie</option>
-                                <option>Haltung</option>
-                                <option>Lebensraum</option>
-                                <option>Zucht</option>
-                                <option>Abgabe von Tieren</option>
-                                <option>Anderes</option>
-                            </select>
-                        </label>
+                        </div>
+
+
+                        <div class="formButtons">
+                            <button class="SendButton" formmethod="POST">Senden</button>
+                        </div>
                     </div>
-                    <div class="formCheckbox">
 
-                    </div>
-
-
-                    <div class="formButtons">
-                        <button class="SendButton" formmethod="POST">Senden</button>
-                    </div>
-                </div>
-
-            </form>
+                </form>
+            </div>
         </div>
     </div>
+
+
 </div>
 
 

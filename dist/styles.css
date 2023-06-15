@@ -170,15 +170,15 @@ html, body {
 }
 
 .info_content {
-    @apply mx-auto w-9/12 bg-white
+    @apply mx-auto w-9/12 bg-white pt-2
 }
 
 .info_title {
-    @apply  mx-auto text-2xl
+    @apply  mx-auto text-2xl text-center
 }
 
 .info_text {
-    @apply p-2 mx-auto text-center w-11/12 flex flex-col
+    @apply p-2 mx-auto text-center w-10/12 flex flex-col
 }
 
 .content_table {
@@ -526,11 +526,11 @@ html, body {
 }
 
 .contact {
-    @apply w-10/12 mx-auto bg-gray-200 pb-4
+    @apply mx-auto bg-gray-100
 }
 
 .contactDescription {
-    @apply w-10/12 mx-auto p-2
+    @apply w-3/4 mx-auto p-2
 }
 
 .contactDescription h2 {
@@ -542,7 +542,7 @@ html, body {
 }
 
 .contactFormContainer {
-    @apply p-2 bg-gray-200 w-10/12 mx-auto
+    @apply p-2 bg-gray-200 w-3/4 mx-auto
 }
 
 .form_content {
