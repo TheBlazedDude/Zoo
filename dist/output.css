@@ -1143,6 +1143,8 @@ html, body {
 
 .us_container_b {
   display: flex;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .us_container_b h1 {
@@ -1538,14 +1540,24 @@ html, body {
   border-width: 1px;
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+  text-align: center;
+}
+
+.tiereInNot_Container {
+  display: flex;
 }
 
 .tierschutz_img_container {
-  display: flex;
+  margin: 0.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
   padding: 1rem;
 }
 
 .tierschutz_img {
+  margin-left: auto;
+  margin-right: auto;
   height: 33.333333%;
   width: 50%;
   padding: 1rem;

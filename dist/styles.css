@@ -356,7 +356,7 @@ html, body {
 }
 
 .us_container_b {
-    @apply flex
+    @apply flex bg-white
 }
 
 .us_container_b h1{
@@ -613,14 +613,18 @@ html, body {
 }
 
 .contentTiereInNot {
-    @apply border w-1/2 m-2 bg-gray-100
+    @apply border w-1/2 m-2 bg-gray-100 text-center
+}
+
+.tiereInNot_Container {
+    @apply flex
 }
 
 .tierschutz_img_container {
-    @apply flex p-4
+    @apply mx-auto p-4 m-2 w-9/12
 }
 .tierschutz_img {
-    @apply w-1/2 h-1/3 p-4
+    @apply mx-auto w-1/2 h-1/3 p-4
 }
 
 
