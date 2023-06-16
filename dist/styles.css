@@ -166,7 +166,7 @@ html, body {
     height: 100%;
 }
 .info_container {
-    @apply flex bg-gray-100 relative
+    @apply flex flex-col bg-gray-100 relative
 }
 
 .info_content {
@@ -626,6 +626,10 @@ html, body {
     @apply p-4 pt-0
 }
 
+.contactForm {
+    @apply flex flex-col
+}
+
 @media screen(sl){
     .contentTiereInNot {
         @apply border w-1/2 m-2 bg-gray-100 text-center
@@ -635,6 +639,10 @@ html, body {
 
 .tiereInNot_Container {
     @apply w-full
+}
+
+.tiereInNot_Container1 {
+    @apply flex flex-col
 }
 
 @media screen(zero) {

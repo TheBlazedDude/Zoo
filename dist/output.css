@@ -544,7 +544,7 @@ video {
 }
 
 .flex-1 {
-  flex: 1 1 0%;
+  flex: 1 1 0;
 }
 
 .flex-row {
@@ -650,9 +650,9 @@ header {
 .continent_button {
   margin: 0.5rem;
   display: inline-block;
-  flex: 1 1 0%;
+  flex: 1 1 0;
   border-radius: 0.25rem;
-  border-width: 0px;
+  border-width: 0;
   --tw-bg-opacity: 1;
   background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
@@ -704,7 +704,7 @@ header {
 }
 
 .dropdown {
-  flex: 1 1 0%;
+  flex: 1 1 0;
 }
 
 .dropdown button {
@@ -720,7 +720,7 @@ header {
 .dropdown-menu {
   position: absolute;
   top: 100%;
-  left: 0px;
+  left: 0;
   z-index: 10;
   margin: 0.25rem;
   display: none;
@@ -886,6 +886,7 @@ html, body {
 .info_container {
   position: relative;
   display: flex;
+  flex-direction: column;
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
@@ -1034,7 +1035,7 @@ html, body {
   .event .div {
     display: inline-block;
     flex-shrink: 0;
-    padding: 0px;
+    padding: 0;
     text-align: center;
   }
 }
@@ -1547,8 +1548,12 @@ html, body {
 }
 
 .event-text1 p {
-  padding: 1rem;
-  padding-top: 0px;
+  padding: 0 1rem 1rem;
+}
+
+.contactForm {
+  display: flex;
+  flex-direction: column;
 }
 
 @media (min-width: 450px){
@@ -1564,6 +1569,11 @@ html, body {
 
 .tiereInNot_Container {
   width: 100%;
+}
+
+.tiereInNot_Container1 {
+  display: flex;
+  flex-direction: column;
 }
 
 @media (min-width: 0px) {
@@ -1768,8 +1778,8 @@ aside a  div h1 {
 
 @media (min-width: 838px) {
   .news_content a {
-    margin-left: 0px;
-    margin-right: 0px;
+    margin-left: 0;
+    margin-right: 0;
     padding-right: 2rem;
     text-align: right;
   }
@@ -1801,7 +1811,7 @@ footer {
 }
 
 .content_footer_a a {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .content_footer_b {
