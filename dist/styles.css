@@ -459,7 +459,7 @@ html, body {
 
 @media screen(lg) {
     .hiddenHelper {
-        @apply flex flex-wrap
+        @apply flex flex-col
     }
 }
 

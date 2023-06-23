@@ -544,7 +544,7 @@ video {
 }
 
 .flex-1 {
-  flex: 1 1 0;
+  flex: 1 1 0%;
 }
 
 .flex-row {
@@ -650,9 +650,9 @@ header {
 .continent_button {
   margin: 0.5rem;
   display: inline-block;
-  flex: 1 1 0;
+  flex: 1 1 0%;
   border-radius: 0.25rem;
-  border-width: 0;
+  border-width: 0px;
   --tw-bg-opacity: 1;
   background-color: rgb(156 163 175 / var(--tw-bg-opacity));
 }
@@ -704,7 +704,7 @@ header {
 }
 
 .dropdown {
-  flex: 1 1 0;
+  flex: 1 1 0%;
 }
 
 .dropdown button {
@@ -720,7 +720,7 @@ header {
 .dropdown-menu {
   position: absolute;
   top: 100%;
-  left: 0;
+  left: 0px;
   z-index: 10;
   margin: 0.25rem;
   display: none;
@@ -1035,7 +1035,7 @@ html, body {
   .event .div {
     display: inline-block;
     flex-shrink: 0;
-    padding: 0;
+    padding: 0px;
     text-align: center;
   }
 }
@@ -1293,7 +1293,7 @@ html, body {
 @media (min-width: 1024px) {
   .hiddenHelper {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
   }
 }
 
@@ -1548,7 +1548,8 @@ html, body {
 }
 
 .event-text1 p {
-  padding: 0 1rem 1rem;
+  padding: 1rem;
+  padding-top: 0px;
 }
 
 .contactForm {
@@ -1778,8 +1779,8 @@ aside a  div h1 {
 
 @media (min-width: 838px) {
   .news_content a {
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 0px;
+    margin-right: 0px;
     padding-right: 2rem;
     text-align: right;
   }
@@ -1811,7 +1812,7 @@ footer {
 }
 
 .content_footer_a a {
-  margin-top: 0;
+  margin-top: 0px;
 }
 
 .content_footer_b {
